@@ -1,6 +1,6 @@
 
 FROM    java:openjdk-8-jre
-MAINTAINER  Martijn Koster "mak-docker@greenhills.co.uk"
+MAINTAINER  Ramzi ALqrainy "ramzi.alqrainy@gmail.com"
 
 ENV SOLR_VERSION 5.3.1
 ENV SOLR_SHA256 34ddcac071226acd6974a392af7671f687990aa1f9eb4b181d533ca6dca6f42d
