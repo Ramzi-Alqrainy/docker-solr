@@ -1,7 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`4.10.4`, `4.10`, `4` (*4.10/Dockerfile*)](https://github.com/makuk66/docker-solr/blob/05ba189924dd98ec1a5ea2c921b5f9ef0f474f6c/4.10/Dockerfile)
--	[`5.3.1`, `5.3`, `5`, `latest` (*5.3/Dockerfile*)](https://github.com/makuk66/docker-solr/blob/b566e7ba1bcec731bcb7d845ee77a00f28e87115/5.3/Dockerfile)
+-	[`4.10.4`, `4.10`, `4` (*4.10/Dockerfile*)](https://github.com/ramzialqrainy/docker-solr/blob/05ba189924dd98ec1a5ea2c921b5f9ef0f474f6c/4.10/Dockerfile)
+-	[`5.3.1`, `5.3`, `5`, `latest` (*5.3/Dockerfile*)](https://github.com/ramzialqrainy/docker-solr/blob/b566e7ba1bcec731bcb7d845ee77a00f28e87115/5.3/Dockerfile)
 
 # What is Solr?
 Solr is highly reliable, scalable and fault tolerant, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the world's largest internet sites.
@@ -10,13 +10,11 @@ Learn more on [Apache Solr homepage](http://lucene.apache.org/solr/) and in the 
 
 > [wikipedia.org/wiki/Apache_Solr](https://en.wikipedia.org/wiki/Apache_Solr)
 
-![Solr Logo](https://raw.githubusercontent.com/makuk66/docker-solr/master/logo.png)
-
 # How to use this Docker image
 
 To run a single Solr server:
 
-    SOLR_CONTAINER=$(docker run -d -p 8983:8983 -t makuk66/docker-solr)
+    SOLR_CONTAINER=$(docker run -d -p 8983:8983 -t ramzialqrainy/docker-solr)
 
 Then with a web browser go to `http://localhost:8983/` to see the Admin Console (adjust the hostname for your docker host).
 
@@ -63,7 +61,7 @@ Then go to `http://localhost:8983/solr/#/~cloud` (adjust the hostname for your d
 
 # About this repository
 
-This repository is available on [github.com/makuk66/docker-solr](https://github.com/makuk66/docker-solr), and the automated build is on the [Docker Hub](https://hub.docker.com/r/makuk66/docker-solr/).
+This repository is available on [github.com/makuk66/docker-solr](https://github.com/makuk66/docker-solr), and the automated build is on the [Docker Hub](https://hub.docker.com/r/Ramzi-Alqrainy/docker-solr/).
 
 ## Supported Docker versions
 
@@ -73,7 +71,7 @@ This image has been tested with Docker version 1.8.1.
 
 ## Issues
 
-If you have any problems with or questions about this image, please submit a [GitHub issue](https://github.com/makuk66/docker-solr/issues).
+If you have any problems with or questions about this image, please submit a [GitHub issue](https://github.com/Ramzi-Alqrainy/docker-solr/issues).
 
 ## Contributing
 
@@ -85,7 +83,7 @@ If you want to contribute to Solr, see the [Solr Resources](http://lucene.apache
 
 Solr is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0), and this repository is too:
 
-Copyright 2015 Martijn Koster
+Copyright 2015 Ramzi Alqrainy
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
